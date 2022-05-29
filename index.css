@@ -1,0 +1,33 @@
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
+body {
+  background: #193459;
+  padding: 0;
+  text-align: center;
+  margin-top: 10px;
+}
+label {
+  font-size: 25px;
+  color: chartreuse;
+  font-weight: bold;
+}
+img {
+  margin: 10px;
+}
+.color {
+  border: none;
+}
+#color1 {
+  border: 1px solid white;
+  width: 10%;
+  margin: 10px;
+}
